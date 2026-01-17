@@ -1,0 +1,51 @@
+{
+    "packages":  [
+                     {
+                         "name":  "esmt",
+                         "maintainer":  "ESMT",
+                         "websiteURL":  "file:///D:/arduino-dist",
+                         "help":  {
+                                      "online":  "file:///D:/arduino-dist/support"
+                                  },
+                         "platforms":  [
+                                           {
+                                               "name":  "ESMT ER813x Boards",
+                                               "architecture":  "cortexm",
+                                               "version":  "1.0.0",
+                                               "category":  "Contributed",
+                                               "url":  "file:///D:/arduino-dist/packages/esmt/hardware/cortexm/1.0.0/esmt-cortexm-1.0.0.zip",
+                                               "archiveFileName":  "esmt-cortexm-1.0.0.zip",
+                                               "checksum":  "SHA-256:f8b9148832b953487902c21a3cca762c9e9b6c6a62619d3e420781d85ce4f85f",
+                                               "size":  "747257",
+                                               "boards":  [
+                                                              {
+                                                                  "name":  "ESMT ER8130 TC01 EVK"
+                                                              }
+                                                          ],
+                                               "toolsDependencies":  [
+                                                                         {
+                                                                             "packager":  "esmt",
+                                                                             "name":  "arm-gnu-toolchain-12.3",
+                                                                             "version":  "12.3.rel1"
+                                                                         }
+                                                                     ]
+                                           }
+                                       ],
+                         "tools":  [
+                                       {
+                                           "name":  "arm-gnu-toolchain-12.3",
+                                           "version":  "12.3.rel1",
+                                           "systems":  [
+                                                           {
+                                                               "host":  "i686-mingw32",
+                                                               "url":  "https://developer.arm.com/-/media/files/downloads/gnu/12.3.rel1/binrel/arm-gnu-toolchain-12.3.rel1-mingw-w64-i686-arm-none-eabi.zip?rev=e6948d78806d4815912a858a6f6a85f6\u0026revision=e6948d78-806d-4815-912a-858a6f6a85f6\u0026hash=247C57037694F81245F058EF57311635",
+                                                               "archiveFileName":  "arm-gnu-toolchain-12.3.rel1-mingw-w64-i686-arm-none-eabi.zip",
+                                                               "checksum":  "SHA-256:d52888bf59c5262ebf3e6b19b9f9e6270ecb60fd218cf81a4e793946e805a654",
+                                                               "size":  "336539068"
+                                                           }
+                                                       ]
+                                       }
+                                   ]
+                     }
+                 ]
+}
