@@ -3,9 +3,9 @@
                      {
                          "name":  "esmt",
                          "maintainer":  "ESMT",
-                         "websiteURL":  "file:///D:/arduino-dist",
+                         "websiteURL":  "https://github.com/KWYangESMT/ESMT-Arduino/tree/8931e4536cafbdd28cc7cc721dc15d2d7ea43e86/er8130tc01_evk",
                          "help":  {
-                                      "online":  "file:///D:/arduino-dist/support"
+                                      "online":  "https://github.com/KWYangESMT/ESMT-Arduino/tree/8931e4536cafbdd28cc7cc721dc15d2d7ea43e86/er8130tc01_evk/support"
                                   },
                          "platforms":  [
                                            {
@@ -13,10 +13,10 @@
                                                "architecture":  "cortexm",
                                                "version":  "1.0.0",
                                                "category":  "Contributed",
-                                               "url":  "file:///D:/arduino-dist/packages/esmt/hardware/cortexm/1.0.0/esmt-cortexm-1.0.0.zip",
+                                               "url":  "https://github.com/KWYangESMT/ESMT-Arduino/tree/8931e4536cafbdd28cc7cc721dc15d2d7ea43e86/er8130tc01_evk/packages/esmt/hardware/cortexm/1.0.0/esmt-cortexm-1.0.0.zip",
                                                "archiveFileName":  "esmt-cortexm-1.0.0.zip",
-                                               "checksum":  "SHA-256:f8b9148832b953487902c21a3cca762c9e9b6c6a62619d3e420781d85ce4f85f",
-                                               "size":  "747257",
+                                               "checksum":  "SHA-256:7e61fa1551d5698693be8baf1e1f0e1166dc06cc128724be4df2adcbe8416bbd",
+                                               "size":  "18238586",
                                                "boards":  [
                                                               {
                                                                   "name":  "ESMT ER8130 TC01 EVK"
