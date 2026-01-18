@@ -15,7 +15,7 @@
                                                "category":  "Contributed",
                                                "url":  "https://github.com/KWYangESMT/ESMT-Arduino/raw/refs/heads/main/er8130tc01_evk/packages/esmt/hardware/cortexm/1.0.0/esmt-cortexm-1.0.0.zip",
                                                "archiveFileName":  "esmt-cortexm-1.0.0.zip",
-                                               "checksum":  "SHA-256:b5434e5a9e0afcbb6b5e4309c32e7a2a270522460673853e6a9440973888adde",
+                                               "checksum":  "SHA-256:b4339202a91839f81ad1e362934dbb267883cc10d854ed89648fdc302ac2050f",
                                                "size":  "18240226",
                                                "boards":  [
                                                               {
