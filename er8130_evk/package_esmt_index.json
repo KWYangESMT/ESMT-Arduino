@@ -1,0 +1,51 @@
+{
+  "packages": [
+    {
+      "name": "esmt",
+      "maintainer": "ESMT",
+      "websiteURL": "https://github.com/KWYangESMT/ESMT-Arduino/raw/refs/heads/main/er8130_evk",
+      "help": {
+        "online": "https://github.com/KWYangESMT/ESMT-Arduino/raw/refs/heads/main/er8130_evk"
+      },
+      "platforms": [
+        {
+          "name": "ESMT ER813x Boards",
+          "architecture": "cortexm",
+          "version": "2.0.0",
+          "category": "Contributed",
+          "url": "https://github.com/KWYangESMT/ESMT-Arduino/raw/refs/heads/main/er8130_evk/packages/esmt/hardware/cortexm/2.0.0/esmt-cortexm-2.0.0.zip",
+          "archiveFileName": "esmt-cortexm-2.0.0.zip",
+          "checksum": "SHA-256:273ee4ea4da4ce5bb53060cda4b36618cb1b01b7722c6c56365a4503961b58c2",
+          "size": "11460701",
+          "boards": [
+            {
+              "name": "ESMT ER8130 EVK"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "esmt",
+              "name": "arm-none-eabi-gcc",
+              "version": "13.3.rel1"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "name": "arm-none-eabi-gcc",
+          "version": "13.3.rel1",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://developer.arm.com/-/media/Files/downloads/gnu/13.3.rel1/binrel/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi.zip",
+              "archiveFileName": "arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi.zip",
+              "checksum": "SHA-256:e46fda043c0ce83582bc8db4b3ef85f77f4beb7333344c2f4193c17e1167a095",
+              "size": "297871203"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
