@@ -36,7 +36,10 @@ built with *Tools > Watchdog > Off* and is stuck, press the board's reset
 button when the uploader asks. The loader listens for an upload for 0.5 s
 after a reset, then starts the sketch.
 
-`Serial` is the USB serial port (UART0) at 115200 8N1 by default.
+`Serial` is the USB serial port (UART0). `Serial.begin(baud)` sets its rate,
+as on other boards: most examples use 9600, so set the Serial Monitor to the
+same rate. Without `Serial.begin()` it runs at 115200 8N1. Uploads work
+whatever common rate (9600 to 921600) the running sketch uses.
 
 ## Board menu
 
