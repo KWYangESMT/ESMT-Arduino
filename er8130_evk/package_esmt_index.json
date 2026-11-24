@@ -11,6 +11,28 @@
         {
           "name": "ESMT ER813x Boards",
           "architecture": "cortexm",
+          "version": "2.1.0",
+          "category": "Contributed",
+          "url": "https://github.com/KWYangESMT/ESMT-Arduino/raw/refs/heads/main/er8130_evk/packages/esmt/hardware/cortexm/2.1.0/esmt-cortexm-2.1.0.zip",
+          "archiveFileName": "esmt-cortexm-2.1.0.zip",
+          "checksum": "SHA-256:43254e13242d7fec7b76964486ae652deadb8930f34a80d147ba5d802d9a584c",
+          "size": "11469153",
+          "boards": [
+            {
+              "name": "ESMT ER8130 EVK"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "esmt",
+              "name": "arm-none-eabi-gcc",
+              "version": "13.3.rel1"
+            }
+          ]
+        },
+        {
+          "name": "ESMT ER813x Boards",
+          "architecture": "cortexm",
           "version": "2.0.0",
           "category": "Contributed",
           "url": "https://github.com/KWYangESMT/ESMT-Arduino/raw/refs/heads/main/er8130_evk/packages/esmt/hardware/cortexm/2.0.0/esmt-cortexm-2.0.0.zip",
